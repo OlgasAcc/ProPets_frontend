@@ -9,7 +9,6 @@ const Favorites = (props) => {
     const showDropMenu = () => {
         setDropMenu(!dropMenu);
     };
-
     return (
         <div className={`${dropMenu ? style.containerFixed : style.container} container border-dark`}>
             <div className='row'>

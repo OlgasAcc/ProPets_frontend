@@ -1,0 +1,134 @@
+.container {
+    min-width: 100%;
+}
+
+.containerFixed {
+    min-width: 100%;
+    position: fixed;
+}
+
+.headerLogo {
+    background: transparent url("../images/logoProPetsWhiteSmall.png") no-repeat center padding-box;
+    height: 2.2em;
+}
+
+.header {
+    background: #669885 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+    color: #FFFFFF;
+    height: 4.38em;
+}
+
+.header i {
+    font-size: 1.5em;
+    opacity: 1;
+}
+
+.addPostButton {
+    background: #84B6A3 0 0 no-repeat padding-box;
+    height: 2.2em;
+    max-width: 9em;
+    border-radius: 20px;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.addPostButton i {
+    font-size: medium;
+}
+
+.addPostButton span {
+    font: 14px Montserrat;
+}
+
+.post {
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.authorAvatar {
+    border: 1px solid #FFFFFF;
+    height: 2.3em;
+    width: auto;
+    border-radius: 100px;
+}
+
+.authorName {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font: 16px Montserrat;
+    font-weight: 600;
+    line-height: 0.9em;
+    letter-spacing: 0;
+    color: #84B6A3;
+    opacity: 1;
+}
+
+.timeStamp {
+    text-align: left;
+    font: Medium Montserrat, serif;
+    font-size: 12px;
+    color: #BABABA;
+}
+
+.post div p {
+    text-align: left;
+    font: 12px Montserrat;
+    font-weight: 600;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.post div i {
+    color: #84B6A3;
+}
+
+.postImage {
+
+}
+
+.chevronLeft, .chevronRight {
+    position: absolute;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    opacity: 0.7;
+    z-index: 7000;
+}
+
+.chevronLeft i, .chevronRight i {
+    color: #84b6a3;
+}
+
+.chevronRight {
+    right: 0;
+    top: 45%;
+}
+
+.chevronLeft {
+    top: 45%;
+}
+
+.postImage img {
+    max-width: 100%;
+    height: auto;
+    max-height: 25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .headerLogo {
+        margin-top: 5px;
+        background: transparent url("../images/headerLogoForLarge.png") no-repeat left padding-box;
+
+    }
+
+    .header {
+        background: #FFFFFF 0 0 no-repeat padding-box;
+        color: #84b6a3;
+    }
+}
+
+

@@ -1,0 +1,58 @@
+.dropMenu {
+    background: #84b6a3 0 0 no-repeat padding-box;
+    position: absolute;
+    display: block;
+    min-height: 100vh;
+    z-index: 9999;
+    left: 0;
+    box-shadow: 15px 0 15px -15px black;
+}
+
+.noDisplay {
+    display: none;
+}
+
+.navButtonOn, .navButtonOff {
+    height: 2.2em;
+    text-align: left;
+    border-radius: 0 17px 17px 0;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+}
+
+.navButtonOn span, .navButtonOff span{
+    font: 16px Montserrat;
+    font-weight: 500;
+    color: #84B6A3;
+}
+
+.navButtonOff span{
+    color: #FFFFFF;
+}
+
+.navButtonOn i{
+    font-size: 16px;
+    color: #84b6a3;
+}
+
+.navButtonOff i{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.navButtonOff{
+    background: #84b6a3 0 0 no-repeat padding-box;
+}
+
+.transparentSide {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+}
+
+a:hover {
+    text-decoration: none;
+    text-shadow: 0 2px 5px rgb(35, 141, 86);
+}
+
